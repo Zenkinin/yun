@@ -4,11 +4,11 @@ pipeline {
     // 环境变量管理
     environment {
         HARBOR_REGISTRY = '172.22.83.19:30003'
-        IMAGE_NAME = 'nju01/prometheus-test-demo'
-        GIT_REPO = 'https://gitee.com/grissom_sh/prometheus-test-demo.git'
-        NAMESPACE = 'nju01'
-        MONITOR_NAMESPACE = 'nju01'
-        HARBOR_USER = 'nju01'
+        IMAGE_NAME = 'nju32/prometheus-test-demo'
+        GIT_REPO = 'https://github.com/Zenkinin/yun.git'
+        NAMESPACE = 'nju32'
+        MONITOR_NAMESPACE = 'nju32'
+        HARBOR_USER = 'nju32'
     }
     
     parameters {
